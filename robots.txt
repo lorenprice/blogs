@@ -1,1 +1,1 @@
-Sitemap: https://lorenprice.github.io/blogs/sitemap.xml
+Sitemap: http://www.datastuff.io/sitemap.xml
