@@ -10,7 +10,7 @@ Data scientist and engineer based in Brooklyn, NY.
  
 Purveyor of good data, bad stock art, and all things Arsenal F.C.
 
-#### Contact: LORENJPRICE AT GMAIL DOT COM 
+##### Contact: LORENJPRICE [at] GMAIL [dot] COM 
 
 
 
