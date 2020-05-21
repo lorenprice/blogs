@@ -140,8 +140,6 @@ window.onload = wrap_img;
 <hr />
 <p>Fake news is real problem, and a big one too. One of the many downsides of social media is the constant flow of misinformation that pervades the networks. Even the term itself has been overused and obscured to blur the distinction between fact and fiction. As the world becomes more connected, it seems many are choosing to be more connected primarily with others who share their same views, creating an ideal environment for untruths to go unchecked. But fake news isn't just a political issue. Covid-19 brought with it a whole new arena of conspiracy theories and bogus medical advice. Detecting fake news is essential to stopping the spread of misinformation.  </p>
 <h2 id="Data">Data<a class="anchor-link" href="#Data"> </a></h2><p>The data consists of news articles and titles along with date published and subject. It's divided into 2 separate files, one of real news articles and one of fake news articles. </p>
-<h3 id="Acknowledgements">Acknowledgements<a class="anchor-link" href="#Acknowledgements"> </a></h3><p>Ahmed H, Traore I, Saad S. “Detecting opinion spams and fake news using text classification”, Journal of Security and Privacy, Volume 1, Issue 1, Wiley, January/February 2018.
-Ahmed H, Traore I, Saad S. (2017) “Detection of Online Fake News Using N-Gram Analysis and Machine Learning Techniques. In: Traore I., Woungang I., Awad A. (eds) Intelligent, Secure, and Dependable Systems in Distributed and Cloud Environments. ISDDC 2017. Lecture Notes in Computer Science, vol 10618. Springer, Cham (pp. 127-138).</p>
 <hr />
 
 </div>
@@ -157,11 +155,14 @@ Ahmed H, Traore I, Saad S. (2017) “Detection of Online Fake News Using N-Gram 
     
     
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Run this to install packages in deep learning AMI</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+<span class="c1"># Run this to install packages in deep learning AMI</span>
 <span class="o">!</span>pip install pandas
 <span class="o">!</span>pip install matplotlib
 <span class="o">!</span>pip install seaborn
@@ -174,7 +175,8 @@ Ahmed H, Traore I, Saad S. (2017) “Detection of Online Fake News Using N-Gram 
     </div>
 </div>
 </div>
-
+</p>
+    </details>
 <div class="output_wrapper">
 <div class="output">
 
@@ -250,11 +252,14 @@ Requirement already satisfied: six&gt;=1.5 in ./anaconda3/envs/python-cpu/lib/py
     
     
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import packages</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+<span class="c1"># Import packages</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
 <span class="kn">import</span> <span class="nn">matplotlib</span>
@@ -288,7 +293,8 @@ Requirement already satisfied: six&gt;=1.5 in ./anaconda3/envs/python-cpu/lib/py
     </div>
 </div>
 </div>
-
+</p>
+    </details>
 <div class="output_wrapper">
 <div class="output">
 
@@ -695,18 +701,22 @@ C:\Users\Loren\fake news\data\True.csv\True.csv
     
     
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
+<details class="description" open="">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># print real article example</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse_show</span>
+<span class="c1"># print real article example</span>
 <span class="n">true</span><span class="o">.</span><span class="n">text</span><span class="p">[</span><span class="mi">106</span><span class="p">]</span>
 </pre></div>
 
     </div>
 </div>
 </div>
-
+</p>
+    </details>
 <div class="output_wrapper">
 <div class="output">
 
@@ -776,18 +786,22 @@ C:\Users\Loren\fake news\data\True.csv\True.csv
     
     
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
+<details class="description" open="">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># print fake article example</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse_show</span>
+<span class="c1"># print fake article example</span>
 <span class="n">fake</span><span class="o">.</span><span class="n">text</span><span class="p">[</span><span class="mi">103</span><span class="p">]</span>
 </pre></div>
 
     </div>
 </div>
 </div>
-
+</p>
+    </details>
 <div class="output_wrapper">
 <div class="output">
 
@@ -2078,6 +2092,14 @@ weighted avg       0.99      0.99      0.99      8980
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Acknowledgements">Acknowledgements<a class="anchor-link" href="#Acknowledgements"> </a></h3><p>Ahmed H, Traore I, Saad S. “Detecting opinion spams and fake news using text classification”, Journal of Security and Privacy, Volume 1, Issue 1, Wiley, January/February 2018.
+Ahmed H, Traore I, Saad S. (2017) “Detection of Online Fake News Using N-Gram Analysis and Machine Learning Techniques. In: Traore I., Woungang I., Awad A. (eds) Intelligent, Secure, and Dependable Systems in Distributed and Cloud Environments. ISDDC 2017. Lecture Notes in Computer Science, vol 10618. Springer, Cham (pp. 127-138).</p>
+
+</div>
+</div>
+</div>
 </div>
 
 
