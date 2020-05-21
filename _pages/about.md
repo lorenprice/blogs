@@ -12,6 +12,8 @@ Purveyor of good data, bad stock art, and all things Arsenal F.C.
 
 ##### Contact: LORENJPRICE [at] GMAIL [dot] COM 
 
-
+Or visit me on Github
+[](https://github.com/lorenprice)
+[![did this work?](/images/Octocat.png)](https://github.com/lorenprice)
 
 
