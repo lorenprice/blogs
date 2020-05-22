@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://www.datastuff.io/gradient%20boosting/classification/2020/03/17/predicting-churn.html</loc>
-<lastmod>2020-03-17T00:00:00-05:00</lastmod>
+<loc>http://www.datastuff.io/gradient%20boosting/classification/2020/01/11/predicting-churn.html</loc>
+<lastmod>2020-01-11T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>http://www.datastuff.io/image%20classification/cnns/transfer%20learning/keras/2020/02/22/apparel-fit.html</loc>
+<lastmod>2020-02-22T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>http://www.datastuff.io/nlp/keras/deep%20learning/aws/2020/05/20/fake-news.html</loc>
